@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.CatTest" time="0.526" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="F:\dev\Glebyandex\qa_java-main\target\test-classes;F:\dev\Glebyandex\qa_java-main\target\classes;C:\Users\gance\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\gance\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\gance\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gance\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\gance\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gance\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\gance\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\gance\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\gance\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\gance\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\gance\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\gance\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\gance\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Yekaterinburg"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Users\gance\.jdks\corretto-21.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\gance\AppData\Local\Temp\surefire9841527467498484414\surefirebooter-20250324155630876_3.jar C:\Users\gance\AppData\Local\Temp\surefire9841527467498484414 2025-03-24T15-56-29_601-jvmRun1 surefire-20250324155630876_1tmp surefire_0-20250324155630876_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\dev\Glebyandex\qa_java-main\target\test-classes;F:\dev\Glebyandex\qa_java-main\target\classes;C:\Users\gance\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\gance\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\gance\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gance\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\gance\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gance\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\gance\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\gance\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\gance\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\gance\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\gance\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\gance\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\gance\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gance"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Users\gance\.jdks\corretto-21.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\dev\Glebyandex\qa_java-main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gance\AppData\Local\Temp\surefire9841527467498484414\surefirebooter-20250324155630876_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+11-LTS"/>
+    <property name="user.name" value="gance"/>
+    <property name="stdout.encoding" value="Cp1251"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-21.0.5.11.1"/>
+    <property name="localRepository" value="C:\Users\gance\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-21/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\gance\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3.3"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="F:\dev\Glebyandex\qa_java-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Users\gance\.jdks\corretto-21.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.10_7\bin;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\program files\dotnet\;c:\program files\git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Users\gance\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="21.0.5+11-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testGetSound" classname="com.example.CatTest" time="0.486"/>
+  <testcase name="testGetFood" classname="com.example.CatTest" time="0.017"/>
+</testsuite>
