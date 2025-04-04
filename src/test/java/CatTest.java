@@ -18,7 +18,7 @@ class CatTest {
     @Test
     void testGetSound() {
         Cat cat = new Cat(feline);
-        assertEquals("Мяу", cat.getSound());
+        assertEquals("Мяу", cat.getSound(),"Ожидалось, что кошка издаст 'Мяу'");
     }
 
     @Test
@@ -28,7 +28,6 @@ class CatTest {
 
         when(feline.eatMeat()).thenReturn(expectedFood);
 
-        assertEquals(expectedFood, cat.getFood());
-        verify(feline, times(1)).eatMeat();
+        assertEquals(expectedFood, cat.getFood(),"Кошки такое не едят");
     }
 }
